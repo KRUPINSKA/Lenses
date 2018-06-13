@@ -22,7 +22,7 @@ public class DrawLensPrincipalPlanes {
 					g2.setColor(Color.GREEN);
 					g2.drawLine( OpticalSystem.lensList.get(i).getFrontPrincipalPointPosition(),(int) y1-200, OpticalSystem.lensList.get(i).getFrontPrincipalPointPosition(),(int) y1+200);
 					g2.drawLine( OpticalSystem.lensList.get(i).getBackPrincipalPointPosition(),(int) y1-200, OpticalSystem.lensList.get(i).getBackPrincipalPointPosition(),(int) y1+200);
-					//System.out.println("FOP: " + OpticalSystem.lensList.get(i).getFrontPrincipalPointPosition() +"\nBOP: " + OpticalSystem.lensList.get(i).getBackPrincipalPointPosition()+"\nFFP: "+OpticalSystem.lensList.get(i).getFrontFocalPointPosition()+"\nBFP: "+OpticalSystem.lensList.get(i).getBackFocalPointPosition());
+					System.out.println("FOP: " + OpticalSystem.lensList.get(i).getFrontPrincipalPointPosition() +"\nBOP: " + OpticalSystem.lensList.get(i).getBackPrincipalPointPosition()+"\nFFP: "+OpticalSystem.lensList.get(i).getFrontFocalPointPosition()+"\nBFP: "+OpticalSystem.lensList.get(i).getBackFocalPointPosition());
 					}
 				}
 	}
